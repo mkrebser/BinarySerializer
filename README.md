@@ -28,7 +28,7 @@ public struct TransformStruct : ISerializeable
 }  
 ```  
 
-Additionally there is another more flexible serializer that serializes objects into dictionaries using the PropertyReader & PropertyWriter. This way versioning of objects can be easily applied.  
+Additionally there is another more flexible serializer that serializes objects into binary dictionaries using the PropertyReader & PropertyWriter. This way versioning of objects can be easily applied.  
 
 ```
 public class class1
